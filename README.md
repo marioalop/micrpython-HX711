@@ -33,11 +33,6 @@ Black   (E-)  ─────────────▶  A+ (Excitation -)
 from hx711 import HX711
 import utime
 
-def main():
-    print("Starting...")
-    hx1, hx2, hx3, hx4 = setup()
-    run(hx1, hx2, hx3, hx4)
-
 hx1 = HX711(5, 4)
 
 # Perform tare (zero)
@@ -77,4 +72,4 @@ You must calibrate each sensor individually using a known weight:
 ---
 
 ## 📄 License
-
+GNU General Public License v3.0

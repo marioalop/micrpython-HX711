@@ -27,7 +27,7 @@ Black   (E-)  ─────────────▶  A+ (Excitation -)
 
 ---
 
-## 📲 Example: Reading from 4 Load Cells
+## 📲 Example: Reading from 1 Load Cells
 
 ```python
 from hx711 import HX711
